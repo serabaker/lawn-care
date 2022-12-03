@@ -39,6 +39,9 @@ function Navbar() {
       position="static"
       sx={{
         backgroundColor: "#8CADA7",
+        borderRadius: "20px",
+        height: "80px",
+        padding: "0 30px",
       }}
     >
       <Container maxWidth="xl">
