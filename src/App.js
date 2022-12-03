@@ -1,5 +1,6 @@
 import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
+import Services from "./components/Services/Services";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+      <Services />
       <Router>
         <Routes>
           <Route id="menu-items" path="/pricing" />
