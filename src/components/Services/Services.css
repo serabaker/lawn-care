@@ -1,3 +1,74 @@
 .service-container {
   height: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  /* font-family: "Rajdhani", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+.service-wrapper {
+  /* height: 450px;
+  display: flex;
+  justify-content: center; */
+  max-width: 1090px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-cards1 {
+  background-color: #f9f9f1;
+  align-items: center;
+  padding: 5px 11px;
+  margin: 10px 36px;
+  height: 400px;
+  width: 200px;
+  line-height: 20px;
+  justify-content: space-between;
+  display: block;
+  word-wrap: break-word;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.service-cards2 {
+  background-color: #f9f9f1;
+  padding: 5px 11px;
+  margin: 10px 36px;
+  height: 400px;
+  width: 200px;
+  line-height: 20px;
+  justify-content: space-between;
+  display: block;
+  word-wrap: break-word;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.service-cards3 {
+  background-color: #f9f9f1;
+  padding: 5px 11px;
+  margin: 10px 36px;
+  height: 400px;
+  width: 200px;
+  line-height: 20px;
+  justify-content: space-between;
+  display: block;
+  word-wrap: break-word;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.price {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.service-h1 {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* border-bottom: solid white 1px; */
+  padding-bottom: 12px;
 }

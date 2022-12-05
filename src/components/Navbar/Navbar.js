@@ -11,6 +11,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import { Link } from "react-router-dom";
 
 const pages = ["Products", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -94,13 +95,14 @@ function Navbar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem
+                <Link
+                  href={pages}
                   id="menu-items"
                   key={page}
                   onClick={handleCloseNavMenu}
                 >
                   <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
+                </Link>
               ))}
             </Menu>
           </Box>

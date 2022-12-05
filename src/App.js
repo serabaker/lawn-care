@@ -6,10 +6,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <HeroSection />
-      <Services />
+      <Services /> */}
       <Router>
+        <Navbar />
+        <HeroSection />
+        <Services />
         <Routes>
           <Route id="menu-items" path="/pricing" />
           <Route id="menu-items" path="/products" />
