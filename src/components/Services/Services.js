@@ -1,11 +1,13 @@
 import React from "react";
 import "./Services.css";
+import { FcCheckmark } from "react-icons/fc";
 
 const Services = () => {
   const bundleBasicArr = ["Mowing", "Trimming", "Leaf Cleanup", "2 x month"];
   const basicBundleMap = bundleBasicArr.map((items) => (
     <li key={items.toString()}>{items}</li>
   ));
+  const greenCheckmark = <FcCheckmark />;
 
   const bundleStandardArr = [
     "Mowing",
@@ -26,12 +28,15 @@ const Services = () => {
     "Shrub Pruning",
     "Removal of Tree Limbs",
     "Pet waste cleanup",
-    "Pressure Washer Patio/Driveway",
+    "Pressure wash patio/driveway",
     "4 x month",
   ];
 
   const premiumBundleMap = bundlePremiumArr.map((items) => (
-    <li key={items.toString()}>{items}</li>
+    <div className="map-div">
+      {greenCheckmark}
+      <li className="map-list"> {items}</li>
+    </div>
   ));
 
   const bundlePrices = {
@@ -52,7 +57,7 @@ const Services = () => {
             <p className="price">{bundlePrices[1]}</p>
           </div>
           <hr />
-          <ul style={{ listStyle: "none" }}>{basicBundleMap}</ul>
+          <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
         </div>
 
         <div className="service-cards2">
@@ -61,7 +66,7 @@ const Services = () => {
             <p className="price">{bundlePrices[2]}</p>
           </div>
           <hr />
-          <ul style={{ listStyle: "none" }}>{standardBundleMap}</ul>
+          <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
         </div>
 
         <div className="service-cards3">
@@ -71,7 +76,9 @@ const Services = () => {
             <p className="price">{bundlePrices[3]}</p>
           </div>
           <hr />
-          <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
+          <div>
+            <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
+          </div>
         </div>
       </div>
     </div>
