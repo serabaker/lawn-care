@@ -41,6 +41,10 @@ const Services = () => {
   };
   return (
     <div className="service-container">
+      <h1 className="service-header">
+        Invest in your yard with one of our service plans
+      </h1>
+
       <div className="service-wrapper">
         <div className="service-cards1">
           <h1 className="service-h1">Basic</h1>
