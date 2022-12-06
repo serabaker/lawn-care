@@ -85,3 +85,15 @@
   display: flex;
   justify-content: center;
 }
+
+.map-list {
+  color: black;
+  padding-left: 12px;
+  line-height: 23px;
+  text-transform: none;
+  display: flex;
+}
+
+.map-div {
+  display: flex;
+}
