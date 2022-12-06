@@ -2,8 +2,8 @@
   height: 600px;
   width: 100%;
   box-sizing: border-box;
-  /* font-family: "Rajdhani", sans-serif; */
   font-family: "Poppins", sans-serif;
+  background-color: #f6f7f3;
 }
 
 .service-wrapper {
@@ -19,7 +19,7 @@
 }
 
 .service-cards1 {
-  background-color: #f9f9f1;
+  background-color: #eefcf6;
   align-items: center;
   padding: 5px 11px;
   margin: 10px 36px;
@@ -30,9 +30,11 @@
   display: block;
   word-wrap: break-word;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: solid 0.5px #bf4e30;
+  border-radius: 20px;
 }
 .service-cards2 {
-  background-color: #f9f9f1;
+  background-color: #eefcf6;
   padding: 5px 11px;
   margin: 10px 36px;
   height: 400px;
@@ -42,9 +44,11 @@
   display: block;
   word-wrap: break-word;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: solid 0.5px #bf4e30;
+  border-radius: 20px;
 }
 .service-cards3 {
-  background-color: #f9f9f1;
+  background-color: #eefcf6;
   padding: 5px 11px;
   margin: 10px 36px;
   height: 400px;
@@ -54,6 +58,8 @@
   display: block;
   word-wrap: break-word;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: solid 0.5px #bf4e30;
+  border-radius: 20px;
 }
 
 .price {
@@ -71,4 +77,11 @@
   display: flex;
   /* border-bottom: solid white 1px; */
   padding-bottom: 12px;
+}
+
+.service-header {
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
