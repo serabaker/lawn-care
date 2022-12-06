@@ -56,7 +56,7 @@ const Services = () => {
           <div className="bundle-prices">
             <p className="price">{bundlePrices[1]}</p>
           </div>
-          <hr />
+          <hr className="hr" />
           <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
         </div>
 

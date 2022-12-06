@@ -3,7 +3,7 @@
   width: 100%;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: #f6f7f3;
+  background-color: #e2efde;
 }
 
 .service-wrapper {
@@ -19,7 +19,7 @@
 }
 
 .service-cards1 {
-  background-color: #eefcf6;
+  background-color: #afd0bf;
   align-items: center;
   padding: 5px 11px;
   margin: 10px 36px;
@@ -30,11 +30,11 @@
   display: block;
   word-wrap: break-word;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border: solid 0.5px #bf4e30;
+  border: solid 0.5px #808f87;
   border-radius: 20px;
 }
 .service-cards2 {
-  background-color: #eefcf6;
+  background-color: #afd0bf;
   padding: 5px 11px;
   margin: 10px 36px;
   height: 400px;
@@ -44,11 +44,11 @@
   display: block;
   word-wrap: break-word;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border: solid 0.5px #bf4e30;
+  border: solid 0.5px #808f87;
   border-radius: 20px;
 }
 .service-cards3 {
-  background-color: #eefcf6;
+  background-color: #afd0bf;
   padding: 5px 11px;
   margin: 10px 36px;
   height: 400px;
@@ -58,7 +58,7 @@
   display: block;
   word-wrap: break-word;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border: solid 0.5px #bf4e30;
+  border: solid 0.5px #808f87;
   border-radius: 20px;
 }
 
@@ -96,4 +96,8 @@
 
 .map-div {
   display: flex;
+}
+
+.hr {
+  color: #808f87;
 }
