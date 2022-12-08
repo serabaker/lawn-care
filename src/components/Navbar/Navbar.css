@@ -1,5 +1,29 @@
 .nav-container {
-  height: 100px;
+  height: 110px;
   width: 100%;
   border: black solid 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-container {
+  display: flex;
+  border: red solid 1px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.nav-logo {
+  display: flex;
+}
+
+.ul-nav {
+  list-style: none;
+  display: flex;
+  /* padding: 3px 3px; */
+}
+
+.li-nav {
+  justify-content: space-between;
 }
