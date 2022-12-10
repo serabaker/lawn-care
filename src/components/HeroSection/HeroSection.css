@@ -1,6 +1,6 @@
 .hero-container {
-  height: 600px;
-  padding-top: 2px;
+  height: 400px;
+  /* padding-top: 2px; */
   display: flex;
   position: sticky;
   align-items: center;
@@ -9,11 +9,12 @@
 }
 
 .hero-img {
-  height: 599px;
+  height: 350px;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: 20px;
+  opacity: 0.63;
 }
 
 .hero-content {
