@@ -1,16 +1,23 @@
 .nav-container {
   height: 110px;
-  width: 99%;
-  border: black solid 1px;
+  width: 95%;
+  border-bottom: grey solid 1px;
   display: flex;
   justify-content: space-between;
-  font-family: "Poppins", sans-serif;
+  font-family: "Frank Ruhl Libre", serif;
   padding: 0 50px;
+}
+
+.nav-wrapper {
+  height: 100px;
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Frank Ruhl Libre", serif;
 }
 
 .list-container {
   display: flex;
-  border: red solid 1px;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
@@ -20,12 +27,11 @@
   display: flex;
   font-size: 1.8rem;
   text-transform: uppercase;
+  letter-spacing: 7px;
 }
 
 .ul-nav {
-  list-style: none;
   display: flex;
-  text-decoration: none;
 
   /* padding: 3px 3px; */
 }
@@ -35,4 +41,30 @@
   justify-content: space-between;
   font-size: 1.3rem;
   text-transform: uppercase;
+}
+
+.nav-a {
+  list-style: none;
+  text-decoration: none;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.nav-button {
+  display: flex;
+  height: 30px;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button-container {
+  background-color: transparent;
+  border: none;
+}
+
+.button-a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 5px;
 }
