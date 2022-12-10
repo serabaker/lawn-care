@@ -1,9 +1,11 @@
 .nav-container {
   height: 110px;
-  width: 100%;
+  width: 99%;
   border: black solid 1px;
   display: flex;
   justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 0 50px;
 }
 
 .list-container {
@@ -16,14 +18,21 @@
 
 .nav-logo {
   display: flex;
+  font-size: 1.8rem;
+  text-transform: uppercase;
 }
 
 .ul-nav {
   list-style: none;
   display: flex;
+  text-decoration: none;
+
   /* padding: 3px 3px; */
 }
 
 .li-nav {
+  text-decoration: none;
   justify-content: space-between;
+  font-size: 1.3rem;
+  text-transform: uppercase;
 }
