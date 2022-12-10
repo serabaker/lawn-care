@@ -12,13 +12,13 @@ function App() {
       <Services /> */}
       <Router>
         <Navbar />
-        <HeroSection />
-        <Services />
+        <HeroSection id="why" />
+        <Services id="services" />
         <Footer />
         <Routes>
-          <Route id="menu-items" path="/pricing" />
-          <Route id="menu-items" path="/products" />
-          <Route id="menu-items" path="/blog" />
+          <Route path="/home" />
+          <Route path="/services" />
+          <Route id="resources" path="/resources" />
         </Routes>
       </Router>
     </>

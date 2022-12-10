@@ -45,7 +45,7 @@ const Services = () => {
     3: "$95/mo",
   };
   return (
-    <div className="service-container">
+    <div id="services" className="service-container">
       <h1 className="service-header">
         Invest in your yard with one of our service plans
       </h1>
