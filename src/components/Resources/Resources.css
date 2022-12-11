@@ -1,0 +1,23 @@
+.resource-container {
+  height: 35rem;
+  padding: 0 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 55%);
+  gap: 80px;
+}
+
+.resource-wrapper {
+  height: 33rem;
+  display: grid;
+  grid-template-columns: repeat(4, 40%);
+  gap: 80px;
+  padding: 0 5rem;
+}
+
+.card-div {
+  border: solid teal 1px;
+  border-radius: 1rem;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+}
