@@ -53,8 +53,7 @@ const Services = () => {
       <div className="service-wrapper">
         <div className="service-cards1">
           <div className="service-h1">
-            {" "}
-            <h1>Basic</h1>{" "}
+            <h1>Basic</h1>
           </div>
 
           <hr className="hr" />
@@ -66,12 +65,15 @@ const Services = () => {
         </div>
 
         <div className="service-cards2">
-          <h1 className="service-h1">Standard</h1>
-          <div className="bundle-prices">
-            <p className="price">{bundlePrices[2]}</p>
+          <div className="service-h1">
+            <h1>Standard</h1>
           </div>
           <hr />
           <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
+          <hr />
+          <div className="bundle-prices">
+            <p className="price">{bundlePrices[2]}</p>
+          </div>
         </div>
 
         <div className="service-cards3">
