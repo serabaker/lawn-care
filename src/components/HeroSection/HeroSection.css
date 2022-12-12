@@ -1,5 +1,5 @@
 .hero-container {
-  height: 400px;
+  height: 260px;
   /* padding-top: 2px; */
   display: flex;
   position: sticky;
@@ -9,7 +9,7 @@
 }
 
 .hero-img {
-  height: 350px;
+  height: 250px;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
