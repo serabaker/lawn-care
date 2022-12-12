@@ -77,14 +77,16 @@ const Services = () => {
         </div>
 
         <div className="service-cards3">
-          <h1 className="service-h1">Premium</h1>
+          <div className="service-h1">
+            <h1>Premium</h1>
+          </div>
 
+          <hr />
+
+          <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
+          <hr />
           <div className="bundle-prices">
             <p className="price">{bundlePrices[3]}</p>
-          </div>
-          <hr />
-          <div>
-            <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
           </div>
         </div>
       </div>
