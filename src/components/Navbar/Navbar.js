@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
         <div className="list-container">
           <ul className="ul-nav">
-            <a className="nav-a" href="#home">
+            <a className="nav-a" href="/">
               <li className="li-nav">Why Lain</li>
             </a>
           </ul>
