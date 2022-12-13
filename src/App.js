@@ -4,6 +4,7 @@ import Services from "./components/Services/Services";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Resources from "./components/Resources/Resources";
+import SideNav from "./components/SideNav/SideNav";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <HeroSection id="why" />
         <Services id="services" />
         <Resources />
+        <SideNav />
         <Footer />
         <Routes>
           <Route path="/home" />
