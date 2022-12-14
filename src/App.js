@@ -1,24 +1,17 @@
-import HeroSection from "./components/HeroSection/HeroSection";
-import Navbar from "./components/Navbar/Navbar";
-import Services from "./components/Services/Services";
+import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "./components/Footer/Footer";
-import Resources from "./components/Resources/Resources";
-import SideNav from "./components/SideNav/SideNav";
 
 function App() {
   return (
     <>
-      {/* <Navbar />
-      <HeroSection />
-      <Services /> */}
+      <Home />
       <Router>
-        <Navbar />
+        {/* <Navbar />
         <HeroSection id="why" />
         <Services id="services" />
         <Resources />
         <SideNav />
-        <Footer />
+        <Footer /> */}
         <Routes>
           <Route path="/home" />
           <Route path="/services" />

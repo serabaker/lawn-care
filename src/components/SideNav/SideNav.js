@@ -8,7 +8,7 @@ const SideNav = () => {
         <div className="sidenav-items">
           <ul className="sidenav-ul">
             <li>
-              <a href="#home">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="#services">Services</a>
