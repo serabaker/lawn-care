@@ -3,7 +3,7 @@
   width: 100%;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: #82a3a1;
+  background-color: #fcf5ee;
   padding-top: 23px;
   margin-bottom: 23px;
 }
@@ -21,7 +21,7 @@
 }
 
 .service-cards1 {
-  background-color: #006494;
+  background-color: #edeec9;
   align-items: center;
   padding: 5px 11px;
   margin: 10px 36px;
@@ -32,11 +32,12 @@
   display: block;
   word-wrap: break-word;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border: solid 0.5px #808f87;
+  border: solid 0.5px #606c38;
   border-radius: 20px;
+  color: #283618;
 }
 .service-cards2 {
-  background-color: #afd0bf;
+  background-color: #dde7c7;
   padding: 5px 11px;
   margin: 10px 36px;
   height: 420px;
@@ -46,11 +47,12 @@
   display: block;
   word-wrap: break-word;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border: solid 0.5px #808f87;
+  border: solid 0.5px #606c38;
   border-radius: 20px;
+  color: #283618;
 }
 .service-cards3 {
-  background-color: #d1ac00;
+  background-color: #bfd8bd;
   padding: 5px 11px;
   margin: 10px 36px;
   height: 420px;
@@ -60,8 +62,9 @@
   display: block;
   word-wrap: break-word;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border: solid 0.5px #808f87;
+  border: solid 0.5px #606c38;
   border-radius: 20px;
+  color: #283618;
 }
 
 .price {
@@ -77,6 +80,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
+
   /* border-bottom: solid white 1px; */
   /* padding-bottom:  12px; */
 }
@@ -86,6 +90,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  color: #283618;
 }
 
 .map-list {
@@ -101,5 +106,5 @@
 }
 
 .hr {
-  color: #808f87;
+  color: #283618;
 }
