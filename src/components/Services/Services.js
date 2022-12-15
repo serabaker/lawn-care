@@ -47,7 +47,8 @@ const Services = () => {
   return (
     <div id="services" className="service-container">
       <h1 className="service-header">
-        Invest in your yard with one of our service plans
+        {" "}
+        Select the service plan that best fits your lawn needs
       </h1>
 
       <div className="service-wrapper">
@@ -58,7 +59,7 @@ const Services = () => {
 
           <hr className="hr" />
           <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
-          <hr />
+          <hr className="hr" />
           <div className="bundle-prices">
             <p className="price">{bundlePrices[1]}</p>
           </div>
@@ -68,9 +69,9 @@ const Services = () => {
           <div className="service-h1">
             <h1>Standard</h1>
           </div>
-          <hr />
+          <hr className="hr" />
           <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
-          <hr />
+          <hr className="hr" />
           <div className="bundle-prices">
             <p className="price">{bundlePrices[2]}</p>
           </div>
@@ -81,10 +82,10 @@ const Services = () => {
             <h1>Premium</h1>
           </div>
 
-          <hr />
+          <hr className="hr" />
 
           <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
-          <hr />
+          <hr className="hr" />
           <div className="bundle-prices">
             <p className="price">{bundlePrices[3]}</p>
           </div>
