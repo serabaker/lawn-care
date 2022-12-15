@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <div style={{ backgroundColor: "#FFF" }}>
       <Home />
       <Router>
         {/* <Navbar />
@@ -18,7 +18,7 @@ function App() {
           <Route id="resources" path="/resources" />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 

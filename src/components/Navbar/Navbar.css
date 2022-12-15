@@ -1,11 +1,12 @@
 .nav-container {
   height: 110px;
   width: 95%;
-  border-bottom: grey solid 1px;
+  border-bottom: #606c38 solid 1px;
   display: flex;
   justify-content: space-between;
   font-family: "Frank Ruhl Libre", serif;
   padding: 0 50px;
+  color: #606c38;
 }
 
 .nav-wrapper {
@@ -25,6 +26,7 @@
 
 .nav-logo {
   display: flex;
+  padding-top: 5px;
   font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -47,7 +49,7 @@
   list-style: none;
   text-decoration: none;
   letter-spacing: 4px;
-  color: black;
+  color: #606c38;
 }
 
 .nav-button {
@@ -61,10 +63,12 @@
 .nav-button-container {
   background-color: transparent;
   border: none;
+  padding-bottom: 10px;
 }
 
 .button-a {
-  color: black;
+  color: #283618;
   text-decoration: none;
   letter-spacing: 5px;
+  padding-bottom: 20px;
 }
