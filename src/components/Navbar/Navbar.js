@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { PopupButton } from "react-calendly";
 
 const Navbar = () => {
   return (
@@ -25,12 +26,24 @@ const Navbar = () => {
             </a>
           </ul>
         </div>
-        <div className="nav-button">
+        {/* <div className="nav-button">
           <button className="nav-button-container">
             <a className="button-a" href="/scheduletoday">
               Schedule Today
             </a>
           </button>
+        </div> */}
+        <div>
+          <a className="nav-a" href="/">
+            {
+              <PopupButton
+                className="popup"
+                url="https://calendly.com/britny-j-lain"
+                rootElement={document.getElementById("root")}
+                text="Schedule today"
+              />
+            }
+          </a>
         </div>
       </div>
     </nav>
