@@ -60,10 +60,17 @@
   justify-content: center;
 }
 
-.nav-button-container {
+.popup {
   background-color: transparent;
   border: none;
-  padding-bottom: 10px;
+  padding-top: 39px;
+  word-wrap: break-word;
+  display: flex;
+  color: #606c38;
+  letter-spacing: 4px;
+  font-size: 0.9rem;
+  font-family: "Frank Ruhl Libre", serif;
+  text-transform: uppercase;
 }
 
 .button-a {
