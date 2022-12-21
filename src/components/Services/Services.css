@@ -95,10 +95,11 @@
 
 .map-list {
   color: black;
-  padding-left: 12px;
+  padding: 0 12px;
   line-height: 23px;
   text-transform: none;
   display: flex;
+  font-size: 16px;
 }
 
 .map-div {
