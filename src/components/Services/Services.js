@@ -1,13 +1,34 @@
 import React from "react";
 import "./Services.css";
 import { FcCheckmark } from "react-icons/fc";
-
+import { GoX } from "react-icons/go";
 const Services = () => {
-  const bundleBasicArr = ["Mowing", "Trimming", "Leaf Cleanup", "2 x month"];
-  const basicBundleMap = bundleBasicArr.map((items) => (
-    <li key={items.toString()}>{items}</li>
-  ));
   const greenCheckmark = <FcCheckmark />;
+  const blackX = <GoX />;
+
+  const bundleBasicArr = ["Mowing", "Trimming", "Leaf Cleanup", "2x/mo"];
+  const excludedBasics = [
+    "Shrub Pruning",
+    "Removal of Tree Limbs",
+    "Pet waste cleanup",
+    "Pressure wash patio/driveway",
+  ];
+  const basicBundleMap = bundleBasicArr.map((items) => (
+    <div className="map-div">
+      {greenCheckmark}
+      <li className="map-list" key={items.toString()}>
+        {items}
+      </li>
+    </div>
+  ));
+  const excludedBundleMap = excludedBasics.map((items) => (
+    <div className="map-div">
+      {blackX}
+      <li className="map-list" key={items.toString()}>
+        {items}
+      </li>
+    </div>
+  ));
 
   const bundleStandardArr = [
     "Mowing",
@@ -58,7 +79,13 @@ const Services = () => {
           </div>
 
           <hr className="hr" />
-          <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
+          <div>
+            <ul style={{ listStyle: "none" }}>
+              <li>{basicBundleMap}</li>
+              <li>{excludedBundleMap}</li>
+            </ul>
+          </div>
+
           <hr className="hr" />
           <div className="bundle-prices">
             <p className="price">{bundlePrices[1]}</p>
@@ -70,7 +97,9 @@ const Services = () => {
             <h1>Standard</h1>
           </div>
           <hr className="hr" />
-          <ul style={{ listStyle: "none" }}>{premiumBundleMap}</ul>
+          <ul style={{ listStyle: "none" }}>
+            <li>{premiumBundleMap}</li>
+          </ul>
           <hr className="hr" />
           <div className="bundle-prices">
             <p className="price">{bundlePrices[2]}</p>
