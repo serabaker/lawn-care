@@ -60,3 +60,13 @@
   color: #606c38;
   font-size: 20px;
 }
+
+.close-btn {
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+  /* position: absolute; */
+  display: flex;
+  float: right;
+  padding: 12px 6px;
+}

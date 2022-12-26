@@ -1,11 +1,15 @@
 import React from "react";
 import "./SideNav.css";
+import { GrFormClose } from "react-icons/gr";
 
 const SideNav = () => {
+  const closeBtn = <GrFormClose />;
   return (
     <nav className="side-container">
       <div className="side-wrapper">
+        <div className="close-btn">{closeBtn}</div>
         <div className="img-container">{/* <img/> */}Image</div>
+
         <div className="sidenav-items">
           <ul className="sidenav-ul">
             <li className="sidenav-li">
