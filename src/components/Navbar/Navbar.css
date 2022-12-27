@@ -1,7 +1,7 @@
 .nav-container {
   height: 110px;
-  width: 95%;
-  border-bottom: #606c38 solid 1px;
+  /* width: 95%; */
+  border-bottom: #d1e3dd solid 1px;
   display: flex;
   justify-content: space-between;
   font-family: "Frank Ruhl Libre", serif;
