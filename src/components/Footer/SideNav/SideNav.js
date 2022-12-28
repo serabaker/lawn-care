@@ -5,7 +5,7 @@ import { GrFormClose } from "react-icons/gr";
 const SideNav = () => {
   const closeBtn = <GrFormClose />;
   return (
-    <nav className="side-container">
+    <aside className="side-container">
       <div className="side-wrapper">
         <div className="close-btn">{closeBtn}</div>
         <div className="img-container">{/* <img/> */}Image</div>
@@ -37,7 +37,7 @@ const SideNav = () => {
           </button>
         </div>
       </div>
-    </nav>
+    </aside>
   );
 };
 
