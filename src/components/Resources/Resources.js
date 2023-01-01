@@ -50,11 +50,11 @@ const Resources = () => {
             {/* <img /> */}
             <p className="resource-p">Some Text</p>
           </div>
-          <div className="resource-link">
+          {/* <div className="resource-link">
             <a href="/" className="resource-a">
               Read More...
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
