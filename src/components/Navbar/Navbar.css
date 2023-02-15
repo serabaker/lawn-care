@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .nav-container {
-  height: 110px;
+  height: 90px;
   /* width: 95%; */
   border-bottom: #d1e3dd solid 1px;
   display: flex;
@@ -7,11 +12,12 @@
   font-family: "Frank Ruhl Libre", serif;
   padding: 0 50px;
   color: #606c38;
+  margin: 40px;
 }
 
 .nav-wrapper {
-  height: 100px;
-  width: 93%;
+  height: 80px;
+  /* width: 93%; */
   display: flex;
   justify-content: space-between;
   font-family: "Frank Ruhl Libre", serif;
@@ -26,10 +32,12 @@
 
 .nav-logo {
   display: flex;
-  padding-top: 5px;
-  font-size: 1.8rem;
+  justify-content: center;
+  text-align: center;
+  padding-top: 29px;
   text-transform: uppercase;
   letter-spacing: 6px;
+  font-size: 14px;
 }
 
 .ul-nav {
@@ -39,10 +47,15 @@
 }
 
 .li-nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   text-decoration: none;
   justify-content: space-between;
   font-size: 1.3rem;
   text-transform: uppercase;
+  margin: 10px;
+  letter-spacing: 9px;
 }
 
 .nav-a {
@@ -63,7 +76,7 @@
 .popup {
   background-color: transparent;
   border: none;
-  padding-top: 39px;
+  padding-top: 29px;
   word-wrap: break-word;
   display: flex;
   color: #606c38;

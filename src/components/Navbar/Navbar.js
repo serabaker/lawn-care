@@ -6,13 +6,12 @@ const Navbar = () => {
   return (
     <nav className="nav-container">
       <div className="nav-wrapper">
-        <div>
-          <h1 className="nav-logo">Lain Lawn Care</h1>
-        </div>
+        <h1 className="nav-logo">Business Logo</h1>
+
         <div className="list-container">
           <ul className="ul-nav">
             <a className="nav-a" href="/">
-              <li className="li-nav">Why Lain</li>
+              <li className="li-nav">Home</li>
             </a>
           </ul>
           <ul className="ul-nav">

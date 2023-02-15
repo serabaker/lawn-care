@@ -1,19 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .hero-container {
-  height: 260px;
+  height: 460px;
   /* padding-top: 2px; */
   display: flex;
   position: sticky;
   align-items: center;
   z-index: 99;
+  margin: 40px;
   justify-content: center;
 }
 
 .hero-img {
-  height: 250px;
+  height: 450px;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 10px;
   opacity: 0.63;
 }
 

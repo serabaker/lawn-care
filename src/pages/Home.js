@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../components/Footer/Footer";
 import Resources from "../components/Resources/Resources";
-import SideNav from "../components/Footer/SideNav/SideNav";
+import SideNav from "../components/SideNav/SideNav";
 import HeroSection from "../components/HeroSection/HeroSection";
 import Navbar from "../components/Navbar/Navbar";
 import Services from "../components/Services/Services";
